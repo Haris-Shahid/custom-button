@@ -1,6 +1,6 @@
-import { configure, setAddon } from "@storybook/react";
+import { configure, setAddon } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
 
 setAddon(JSXAddon);
 
-configure(() => require("./stories"), module);
+configure(() => require('./stories'), module);

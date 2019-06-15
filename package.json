@@ -1,36 +1,40 @@
 {
-    "name": "@harisshahid00/custom-button",
-    "module": "/dist/custom-button",
-    "description": "Make a custom-button library for just fun.",
-    "version": "1.0.0",
-    "author": {
-        "name": "Haris Shahid",
-        "email": "harisshahid00@gmail.com"
-    },
-    "homepage": "https://github.com/Haris-Shahid/custom-button#readme",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:Haris-Shahid/custom-button.git"
-    },
-    "license": "MIT",
-    "scripts": {
-        "build": "webpack --config webpack.config.js",
-        "docs": "start-storybook -p 9001 -c .storybook",
-        "docs:build": "build-storybook -c .storybook -o docs"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.4.5",
-        "@babel/preset-env": "^7.4.5",
-        "@babel/preset-react": "^7.0.0",
-        "@storybook/addon-info": "^5.1.3",
-        "@storybook/components": "^5.1.3",
-        "@storybook/react": "^5.1.3",
-        "babel-loader": "^8.0.6",
-        "clean-webpack-plugin": "^3.0.0",
-        "react": "^16.8.6",
-        "storybook-addon-jsx": "^7.1.2",
-        "uglifyjs-webpack-plugin": "^2.1.3",
-        "webpack": "^4.33.0",
-        "webpack-cli": "^3.3.4"
-    }
+  "name": "@csejtei/custom-button",
+  "module": "/dist/custom-button",
+  "description": "A custom button for ReactJS projects.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Dávid Csejtei",
+    "email": "davidcsejtei90@gmail.com"
+  },
+  "homepage": "https://github.com/davidcsejtei/custom-button#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:davidcsejtei/custom-button.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "docs": "start-storybook -p 9001 -c .storybook",
+    "docs:build": "build-storybook -c .storybook -o docs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-info": "^4.1.11",
+    "@storybook/components": "^4.1.11",
+    "@storybook/react": "^4.1.11",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^1.0.1",
+    "css-loader": "^2.1.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "sass-loader": "^7.1.0",
+    "storybook-addon-jsx": "^6.0.0",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
 }

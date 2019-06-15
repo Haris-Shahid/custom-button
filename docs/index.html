@@ -1,38 +1,14 @@
-<!doctype html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title>Storybook</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <style>
-    html,
-    body {
-      overflow: hidden;
-      height: 100%;
-      width: 100%;
-      margin: 0;
-      padding: 0;
+<!doctype html><html><head><meta charset="utf-8"><title>Storybook</title><style>html, body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }</style><script>try {
+    if (window.parent !== window) {
+      window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = window.parent.__REACT_DEVTOOLS_GLOBAL_HOOK__;
+      window.__VUE_DEVTOOLS_GLOBAL_HOOK__ = window.parent.__VUE_DEVTOOLS_GLOBAL_HOOK__;
     }
-  </style>
-  <script>/* globals window */
-    /* eslint-disable no-underscore-dangle */
-    try {
-      if (window.parent !== window) {
-        window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = window.parent.__REACT_DEVTOOLS_GLOBAL_HOOK__;
-        window.__VUE_DEVTOOLS_GLOBAL_HOOK__ = window.parent.__VUE_DEVTOOLS_GLOBAL_HOOK__;
-      }
-    } catch (e) {
-      // eslint-disable-next-line no-console
-      console.warn('unable to connect to parent frame for connecting dev tools');
-    }</script>
-</head>
-
-<body>
-  <div id="root"></div>
-  <script src="runtime~main.17da544d0ef88cbabfaf.bundle.js"></script>
-  <script src="vendors~main.1c6b9c62a009dd67006c.bundle.js"></script>
-  <script src="main.9d7b72ff161d49a839fd.bundle.js"></script>
-</body>
-
-</html>
+  } catch (e) {
+    console.warn('unable to connect to parent frame for connecting dev tools');
+  }</script></head><body><div id="root"></div><script src="./sb_dll/storybook_ui_dll.js"></script><script src="runtime~main.729a62daeea60911f9f0.bundle.js"></script><script src="vendors~main.15e1040dac55a319409f.bundle.js"></script><script src="main.8e70f516322fec226130.bundle.js"></script></body></html>
